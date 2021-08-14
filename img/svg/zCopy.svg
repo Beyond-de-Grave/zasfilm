@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86.668" height="132">
+    <defs>
+        <linearGradient id="elpthlqawa" x1="0%" x2="99.863%" y1="5.234%" y2="0%">
+            <stop offset="0%" stop-color="#CA324E"/>
+            <stop offset="42%" stop-color="#7C234D"/>
+            <stop offset="100%" stop-color="#1A1A1B"/>
+        </linearGradient>
+    </defs>
+    <text fill="url(#elpthlqawa)" font-family="Gotham Pro" font-size="84.271" transform="matrix( 1.24127176875779, 0, 0, 1.23791142940858,0.12390845549066, 22.8626218619863)">
+        Z
+    </text>
+</svg>

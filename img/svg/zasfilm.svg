@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1197.332" height="260.001">
+    <defs>
+        <linearGradient id="7yp17ux8ba" x1="0%" x2="99.863%" y1="5.234%" y2="0%">
+            <stop offset="0%" stop-color="#12100B" stop-opacity=".24"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".24"/>
+        </linearGradient>
+    </defs>
+    <text y="-1052.498" fill="url(#7yp17ux8ba)" font-family="Gotham Pro" font-size="200" opacity=".929">
+        ZASFILM
+    </text>
+    <text y="-1052.498" fill="#FFF" font-family="Gotham Pro" font-size="200" opacity=".929">
+        ZASFILM
+    </text>
+</svg>

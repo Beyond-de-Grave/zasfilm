@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86.668" height="132">
+    <defs>
+        <linearGradient id="l0ec21hoia" x1="0%" x2="99.863%" y1="5.234%" y2="0%">
+            <stop offset="0%" stop-color="#CA324E"/>
+            <stop offset="42%" stop-color="#7C234D"/>
+            <stop offset="100%" stop-color="#1A1A1B"/>
+        </linearGradient>
+        <linearGradient id="cjsra1xtkb" x1="0%" x2="99.863%" y1="5.234%" y2="0%">
+            <stop offset="0%" stop-color="#7C234D"/>
+            <stop offset="12%" stop-color="#A32B4E"/>
+            <stop offset="21%" stop-color="#CA324E"/>
+            <stop offset="53%" stop-color="#7C234D"/>
+            <stop offset="80%" stop-color="#A1294D"/>
+            <stop offset="91%" stop-color="#8F264D"/>
+            <stop offset="98%" stop-color="#7C234D"/>
+        </linearGradient>
+    </defs>
+    <text fill="url(#l0ec21hoia)" font-family="Gotham Pro" font-size="84.271" transform="matrix( 1.24127176875779, 0, 0, 1.23791142940858,0.12390845549066, 22.8626218619863)">
+        Z
+    </text>
+    <text fill="url(#cjsra1xtkb)" font-family="Gotham Pro" font-size="81.989" transform="matrix( 0.68829884633594, 0, 0, 0.68643550121236,17.1505915772853, 33.6999708508446)">
+        II
+    </text>
+</svg>

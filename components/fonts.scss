@@ -1,0 +1,49 @@
+// https://transfonter.org/
+
+@font-face {
+    font-family: 'Gotham Pro Black';
+    src: url('../fonts/GothaProBla/GothamPro-Black.woff2') format('woff2'),
+        url('../fonts/GothaProBla/GothamPro-Black.woff') format('woff')
+        ,
+        url('../fonts/GothaProBla/GothamPro-Black.ttf') format('truetype')
+        ;
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothaProLig/GothamPro-Light.woff2') format('woff2'),
+        url('../fonts/GothaProLig/GothamPro-Light.woff') format('woff')
+        ,
+        url('../fonts/GothaProLig/GothamPro-Light.ttf') format('truetype')
+        ;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('../fonts/GothaProMed/GothamPro-Medium.woff2') format('woff2'),
+        url('../fonts/GothaProMed/GothamPro-Medium.woff') format('woff')
+        // ,
+        // url('../fonts/GothaProMed/GothamPro-Medium.ttf') format('truetype')
+        ;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothaProReg/GothamPro.woff2') format('woff2'),
+        url('../fonts/GothaProReg/GothamPro.woff') format('woff')
+        // ,
+        // url('../fonts/GothaProReg/GothamPro.ttf') format('truetype')
+        ;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
