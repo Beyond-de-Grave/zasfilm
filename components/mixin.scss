@@ -1,0 +1,19 @@
+@mixin buttonFrame() {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    overflow: visible;
+}
+
+@mixin textStyle($x: 1.2vw){
+    font-family: 'Gotham Pro Black';
+    font-size: $x;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
