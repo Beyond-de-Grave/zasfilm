@@ -7,13 +7,27 @@
     overflow: visible;
 }
 
-@mixin textStyle($x: 1.2vw){
-    font-family: 'Gotham Pro Black';
+// @mixin textStyle($x: 1.2vw){
+//     font-family: 'Roboto';
+//     font-size: $x;
+//     font-weight: 900;
+//     font-stretch: normal;
+//     font-style: normal;
+//     // font-style: bold;
+//     line-height: normal;
+//     letter-spacing: normal;
+//     color: white;
+// }
+
+@mixin textStyle($x: 25px) {
+    font-family: 'Roboto', sans-serif;
     font-size: $x;
     font-weight: 900;
+    // line-height: 1.63;
+    line-height: 75px;
+    text-align: left;
+    color: #fff;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
     letter-spacing: normal;
-    color: white;
-}
+  }
