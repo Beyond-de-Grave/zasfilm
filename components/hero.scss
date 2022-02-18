@@ -5,7 +5,7 @@
     background-image: url("../img/png/backGroundHead.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    padding-top: 10%;
+    padding-top: 8%;
     // padding: 8% 5%;     // Create a X - scroll!!!!
     &-wrapper{
         width: 100%;
@@ -21,7 +21,7 @@
     }
     // Right Part
     &__image{
-        width: 45%;
+        width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -54,10 +54,12 @@
     &__text{
         width: 100%;
         margin-bottom: 2%;
-        @include textStyle(46px);
+        // @include textStyle(46px);
+        @include txt(38px, 700, 1.42);
+        // line-height: 1.42;
         width: 977px;
         height: 129px;
-        margin: 45px 136px 26px 84px;
+        margin: 12px 26px 43px 19px;
     }
     &__buttons{
         width: 100%;
@@ -65,17 +67,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @include textStyle();
+        // @include textStyle();
     }
 
     $btnArray : 1, 2;
     @each $i in $btnArray {
         &__btn#{$i}{
-            @include textStyle();
-            width: 40%;
+            @include txt(38px, 700);
+            width: 88%;
             height: 80%;
             color: #000000;
-            border-radius: 50px;
+            // border-radius: 50px;
+            // width: 797px;
+            // height: 79px;
+            // padding: 28px 43px 20px 44px;
+            object-fit: contain;
+            border-radius: 39.5px;
+            box-shadow: -8.2px 7.4px 17.6px 3.4px rgba(0, 0, 0, 0.29);
             background-color: #ffffff;
         }
     }

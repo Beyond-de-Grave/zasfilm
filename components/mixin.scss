@@ -19,10 +19,12 @@
 //     color: white;
 // }
 
-@mixin textStyle($x: 25px) {
-    font-family: 'Roboto', sans-serif;
+@mixin textStyle($x: 25px, $y: 900) {
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: $x;
-    font-weight: 900;
+    // font-weight: 900;
+    font-weight: $y;
     // line-height: 1.63;
     line-height: 75px;
     text-align: left;
@@ -30,4 +32,10 @@
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-  }
+}
+
+@mixin txt($x: 25px, $y: 900, $z: normal) {
+    font-size: $x;
+    font-weight: $y;
+    line-height: $z;
+}
