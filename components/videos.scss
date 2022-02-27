@@ -1,3 +1,4 @@
+
 .videos{
     margin-top: 10%;
     padding-top: 10%;
@@ -122,4 +123,20 @@
 
 #video{
     border-radius: 20px;
+}
+
+/* Interesting another 'before' class */
+.hero-videos{
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: -5%;
+        height: 600%;
+        width: 100%;
+        background: url("../img/jpg/backgroundServices.jpg") no-repeat;
+        background-size: 100% auto;
+        background-size: cover;
+        z-index:-1; 
+    }
 }
