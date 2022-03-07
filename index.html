@@ -204,6 +204,7 @@
                 </div>
                 <div class="benefits__content">
                     <div class="benefits__item bi bi__1">
+                        <img src="./img/png/logo.png" alt="Camera" class="bi__img">
                         <h6 class="bi__text">СОВРЕМЕННОЕ ПЕРЕДОВОЕ ОБОРУДОВАНИЕ</h6>
                         <h6 class="bi__text">Возможность записи видео в 4К, системы электронной стаб оги</h6>
                     </div>
@@ -225,6 +226,30 @@
                 </div>
             </div>
         </div>
+        <div class="hero-comment comment"></div>
+        <div class="hero-clients clients"></div>
+        <div class="hero-feedback feedback">
+            <!-- По умолчанию метод для отправки get -->
+            <!-- http://127.0.0.1:5500/api/form?name=&phone=&email=&comment= -->
+            <!-- Все что мы пишем попадает в поле value -->
+            <!-- если данные типа регистрационные которые никто не должен видеть то post -->
+            <!-- <form action="/api/form" method="get" enctype="text/plain" autocomplete="on"> -->
+            <!--  если есть input:file тогда form:enctype="multipart/form-data"-->
+            <form action="/api/form" method="post" enctype="text/plain" autocomplete="on">
+                Ваше имя <input type="text" placeholder="Ваше имя" name="name" required tabindex="1">
+                Номер телефона <input type="tel" placeholder="Номер телефона" name="phone" tabindex="2" required>
+                E-mail <input type="email" placeholder="E-mail" name="email" tabindex="3" required>
+                <textarea name="comment" id="" cols="30" rows="10" placeholder="Задайте ваш вопрос"
+                    tabindex="4"></textarea>
+                <!-- send to http://127.0.0.1:5500/api/form -->
+                <!-- должен быть внутри формы submit -->
+                <input type="submit" value="отправить">
+                <!-- Or -->
+                <button type="submit">Отослать</button>
+                <input type="reset" value="Сбросить">
+            </form>
+        </div>
+        <div class="hero-footer footer"></div>
         <!--  -->
     </section>
 </body>
