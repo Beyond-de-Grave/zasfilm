@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero-videos videos">
+        <section class="hero-videos videos">
             <div class="videos__button vb__left">
                 <img src="./img/png/buttonLeft.png" alt="Left" class="videos__arrow">
             </div>
@@ -153,8 +153,8 @@
                     <img src="./img/png/upButton.png" alt="Up" class="vu__icon">
                 </div>
             </div>
-        </div>
-        <div class="hero-services services">
+        </section>
+        <section class="hero-services services">
             <div class="services-wrapper">
                 <div class="services__title st">
                     <h1 class="st__text">Услуги</h1>
@@ -180,8 +180,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="hero-about about">
+        </section>
+        <section class="hero-about about">
             <div class="about-wrapper">
                 <div class="about__title at">
                     <h1 class="at__text">О компании</h1>
@@ -196,45 +196,98 @@
                     </h6>
                 </div>
             </div>
-        </div>
-        <div class="hero-benefits benefits">
+        </section>
+        <section class="hero-benefits benefits">
             <div class="benefits-wrapper">
                 <div class="benefits__title bt">
                     <h1 class="bt__text">ПРЕИМУЩЕСТВА РАБОТЫ С НАМИ</h1>
                 </div>
                 <div class="benefits__content">
                     <div class="benefits__item bi bi__1">
-                        <img src="./img/png/logo.png" alt="Camera" class="bi__img">
-                        <h6 class="bi__text">СОВРЕМЕННОЕ ПЕРЕДОВОЕ ОБОРУДОВАНИЕ</h6>
-                        <h6 class="bi__text">Возможность записи видео в 4К, системы электронной стаб оги</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit1.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">СОВРЕМЕННОЕ ПЕРЕДОВОЕ ОБОРУДОВАНИЕ</h6>
+                            <h6 class="bi__text bi__text-small">Возможность записи видео в 4К, системы электронной
+                                стабилизации</h6>
+                        </div>
                     </div>
                     <div class="benefits__item bi bi__2">
-                        <h6 class="bi__text">Веб-дизайн</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit2.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">КОМАНДА ПРОФЕССИОНАЛОВ</h6>
+                            <h6 class="bi__text bi__text-small">Опыт каждого специалиста отдела производства видео не
+                                менее 8 лет.</h6>
+                        </div>
                     </div>
                     <div class="benefits__item bi bi__3">
-                        <h6 class="bi__text">Онлайн-трансляции и вебинары</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit3.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">СОЗДАНИЕ 3D И ВИЗУАЛЬНОЙ ГРАФИКИ</h6>
+                            <h6 class="bi__text bi__text-small">Одни из лучших в данной сфере в Санкт-Петербурге.</h6>
+                        </div>
                     </div>
                     <div class="benefits__item bi bi__4">
-                        <h6 class="bi__text">Экскурсии и панорамы в 360°</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit4.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">НЕ ЗАВИСИМ ОТ ИНТЕРНЕТА</h6>
+                            <h6 class="bi__text bi__text-small">Можем осуществлять прямые трансляции через собственную
+                                спутниковую
+                                систему.
+                            </h6>
+                        </div>
                     </div>
                     <div class="benefits__item bi bi__5">
-                        <h6 class="bi__text">Фотосъёмка</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit5.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">ПРОЗРАЧНЫЕ ЭТАПЫ РАБОТ</h6>
+                            <h6 class="bi__text bi__text-small">Вы имеете полный доступ
+                                ко всему процессу работы
+                                с возможностью вносить корректировки.</h6>
+                        </div>
                     </div>
                     <div class="benefits__item bi bi__6">
-                        <h6 class="bi__text">Видеосъёмка</h6>
+                        <div class="bi__img-container"><img src="./img/png/benefit6.png" alt="Camera" class="bi__img">
+                        </div>
+                        <div class="bi__text-container">
+                            <h6 class="bi__text">БОЛЬШОЙ ОПЫТ РАБОТЫ</h6>
+                            <h6 class="bi__text bi__text-small">Наша студия выпустила сотни успешных фильмов
+                                и видеороликов.</h6>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="hero-comment comment"></div>
-        <div class="hero-clients clients"></div>
-        <div class="hero-feedback feedback">
-            <!-- По умолчанию метод для отправки get -->
-            <!-- http://127.0.0.1:5500/api/form?name=&phone=&email=&comment= -->
-            <!-- Все что мы пишем попадает в поле value -->
-            <!-- если данные типа регистрационные которые никто не должен видеть то post -->
-            <!-- <form action="/api/form" method="get" enctype="text/plain" autocomplete="on"> -->
-            <!--  если есть input:file тогда form:enctype="multipart/form-data"-->
+        </section>
+        <section class="hero-comment comment">
+            <div class="comment-wrapper">
+                <div class="comment__item ci">
+                    <div class="ci__content">
+                        <img src="./img/png/photoZasranets.png" alt="Zasranets" class="ci__img">
+                    </div>
+                    <div class="ci__title">
+                        Александр Жданов
+                        <br>
+                        Руководитель, продюсер
+                    </div>
+                </div>
+                <div class="comment__item ci">
+                    <div class="ci__content">
+                        <p class="ci__text">
+                            “Наша студия создает высококачественный контент видеофильмов
+                            и рекламы по правилам кинематографа с использованием режиссерского сценария и раскадровки
+                            к предстоящим съемкам”.
+                        </p>
+                    </div>
+                    <div class="ci__title"></div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-clients clients"></section>
+        <section class="hero-feedback feedback">
             <form action="/api/form" method="post" enctype="text/plain" autocomplete="on">
                 Ваше имя <input type="text" placeholder="Ваше имя" name="name" required tabindex="1">
                 Номер телефона <input type="tel" placeholder="Номер телефона" name="phone" tabindex="2" required>
@@ -248,8 +301,8 @@
                 <button type="submit">Отослать</button>
                 <input type="reset" value="Сбросить">
             </form>
-        </div>
-        <div class="hero-footer footer"></div>
+        </section>
+        <section class="hero-footer footer"></section>
         <!--  -->
     </section>
 </body>

@@ -13,6 +13,7 @@
     background-size: 100% auto;
     background-position: center;
     background-size: contain;
+    z-index: -1;
     // transform: scale(1.4);
     overflow-x: hidden;
     &::before{
@@ -24,6 +25,7 @@
         height: 263px;
         top: -3%;
         right: 1%;
+        z-index: -1;
     }
     &-wrapper{
         width: 85%;

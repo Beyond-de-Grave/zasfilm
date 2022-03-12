@@ -1,0 +1,109 @@
+.comment{
+    // margin-top: 10%;
+    padding-top: 6%;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    align-items: baseline;
+    justify-content: center;
+    // background-image: url("../img/png/sectionCommentWave.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: top;
+    &::before{
+        position: absolute;
+        content: '';
+        background-image: url("../img/png/sectionCommentWave.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        // background-position: top;
+        width: 100%;
+        height: 300%;
+        top: -40%;
+        left: 0;
+        z-index: -1;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        // content: url('../img/png/graphicsShape.png');
+        background-image: url('../img/png/graphicsShape.png');
+        background-size: cover;
+        width: 72px;
+        height: 522px;
+        top: 15%;
+        left : 0px;
+    }
+    &-wrapper{
+        width: 90%;
+        height: 80%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: space-between;
+        // justify-content: center;
+        justify-content: flex-start;
+        &::before{
+            position: absolute;
+            content: "";
+            // content: url('../img/png/graphicsShape.png');
+            background-image: url('../img/png/shapeCircleSection.png');
+            background-size: cover;
+            // opacity: 0.29;
+            width: 467px;
+            height: 663px;
+            top: -80%;
+            right : -5%;
+            z-index: -1;
+        }
+    }
+}
+
+.ci{
+    height: 100%;
+    position: relative;
+    &:first-child{
+        max-width: 30%;
+    }
+    &:last-child{
+        border-left: 3px solid white;
+        max-width: 78%;
+        // margin: auto 3%;
+        padding: 0 2%;
+        margin-left: 2%;
+        // margin-right: 3%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__content{
+        max-width: 100%;
+    }
+    &__title{
+        font-size: 25px;
+        // 
+        font-size: 1.145vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    &__text{
+        font-size: 38px;
+        // 
+        font-size: 1.741vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
+}
