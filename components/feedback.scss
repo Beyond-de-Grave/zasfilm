@@ -1,11 +1,131 @@
 .feedback{
-    // margin-top: 10%;
+    margin-top: 5%;
     padding-top: 6%;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    &::after{
+        content: '';
+        position: absolute;
+        background-image: url('../img/png/lineDown.png');
+        background-size: cover;
+        width: 27px;
+        height: 826px;
+        top: 25%;
+        right: 3%;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../img/png/angleDown.png');
+        background-size: cover;
+        width: 327px;
+        height: 419px;
+        bottom: 0%;
+        left: 3%;
+    }
+}
+
+.form{
+    width: 80%;
+    height: 70%;
+    position: relative;
+    margin: 10% auto;
+    padding: 3% 3%;
+    padding-bottom: 1%;
+    border-radius: 40px;
+    background-color: #1c1a20;
+
+    &__header{
+        width: 100%;
+        height: 30%;
+        position: relative;
+    }
+    &__title{
+        font-size: 42px;
+        // 
+        font-size: 1.924vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    &__subtitle, &__input, &__comment, &__submit, &__reset{
+        font-size: 33px;
+        // 
+        font-size: 1.512vw;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+    }
+    &__content{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__column{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        &:last-child{
+            margin-left: 20%;
+        }
+    }
+    &__input{
+        padding: 12px 20px;
+        margin: 22px 0;
+        box-sizing: border-box;
+        font-style: italic;
+        color: #fff;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #eeedf0;
+        background: transparent;
+    }
+    &__comment{
+        padding: 12px 20px;
+        width: 947px;
+        height: 324px;
+        resize: none;
+        color: #fff;
+        opacity: 0.49;
+        border: solid 2px #fff;
+        background: transparent;
+    }
+    &__buttons{
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__submit, &__reset{
+        width: 30%;
+        padding: 12px 20px;
+        color: #fff;
+        text-align: right;
+        background-color: #1c1b1f;
+        border: none;
+        border-bottom: 2px solid #eeedf0;
+    }
+    &__submit{
+        border-right: 2px solid #eeedf0;
+    }
 }

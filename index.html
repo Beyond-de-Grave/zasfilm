@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
         rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <!-- Favicon Icon of the cite-->
     <link rel="shortcut icon" href="./img/png/logo.png" type="image/x-icon">
@@ -286,23 +287,81 @@
                 </div>
             </div>
         </section>
-        <section class="hero-clients clients"></section>
+        <section class="hero-clients clients">
+            <div class="clients-wrapper">
+                <div class="clients__title clt">
+                    <h1 class="clt__text">НАШИ КЛИЕНТЫ</h1>
+                </div>
+                <div class="clients__content">
+                    <div class="clients__item cli cli__1">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client1.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__2">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client2.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__3">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client3.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__4">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client4.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__5">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client5.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__6">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client6.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                    <div class="clients__item cli cli__7">
+                        <div class="cli__img-container">
+                            <img src="./img/png/client7.png" alt="Camera" class="cli__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="hero-feedback feedback">
-            <form action="/api/form" method="post" enctype="text/plain" autocomplete="on">
-                Ваше имя <input type="text" placeholder="Ваше имя" name="name" required tabindex="1">
-                Номер телефона <input type="tel" placeholder="Номер телефона" name="phone" tabindex="2" required>
-                E-mail <input type="email" placeholder="E-mail" name="email" tabindex="3" required>
-                <textarea name="comment" id="" cols="30" rows="10" placeholder="Задайте ваш вопрос"
-                    tabindex="4"></textarea>
-                <!-- send to http://127.0.0.1:5500/api/form -->
-                <!-- должен быть внутри формы submit -->
-                <input type="submit" value="отправить">
-                <!-- Or -->
-                <button type="submit">Отослать</button>
-                <input type="reset" value="Сбросить">
+            <form class="hero-form form" action="/api/form" method="post" enctype="text/plain" autocomplete="on">
+                <div class="form__header">
+                    <h6 class="form__title">Заказать проект</h6>
+                    <h6 class="form__subtitle">Заполните форму и мы свяжемся с вами</h6>
+                </div>
+                <div class="form__content">
+                    <div class="form__column">
+                        <input class="form__input" type="text" placeholder="Ваше имя" name="name" required tabindex="1">
+                        <input class="form__input" type="tel" placeholder="Номер телефона" name="phone" tabindex="2"
+                            required>
+                        <input class="form__input" type="email" placeholder="E-mail" name="email" tabindex="3" required>
+                    </div>
+                    <div class="form__column">
+                        <textarea class="form__comment" name="comment" id="" cols="30" rows="8"
+                            placeholder="Задайте ваш вопрос" tabindex="4"></textarea>
+                        <!-- send to http://127.0.0.1:5500/api/form -->
+                        <!-- должен быть внутри формы submit -->
+                        <div class="form__buttons">
+                            <input class="form__submit" type="submit" value="Отправить">
+                            <!-- Or -->
+                            <!-- <button class="form__submit" type="submit">Отослать</button> -->
+                            <input class="form__reset" type="reset" value="Сбросить">
+                        </div>
+                    </div>
+                </div>
             </form>
         </section>
-        <section class="hero-footer footer"></section>
+        <section class="hero-footer footer">
+
+        </section>
         <!--  -->
     </section>
 </body>
